@@ -1,0 +1,97 @@
+/* TaskManager.css */
+
+.add-task-btn {
+  display: inline-block;
+  background-color: #007bff;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 20px 0;
+  font-size: 16px;
+}
+
+.add-task-btn:hover {
+  background-color: #0056b3;
+}
+
+.task-manager-container {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+  }
+  
+  .task-column {
+    flex: 1;
+    margin: 0 10px;
+    background-color: #f0f8ff;
+    border-radius: 8px;
+    padding: 10px;
+  }
+  
+  .task-column h2 {
+    text-align: center;
+    color: white;
+    background-color: #4682b4;
+    padding: 10px;
+    border-radius: 8px 8px 0 0;
+  }
+  
+  .task-card {
+    background-color: #e6f7ff;
+    border: 1px solid #b3d9ff;
+    border-radius: 8px;
+    padding: 10px;
+    margin: 10px 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .task-card h3 {
+    margin: 0;
+  }
+  
+  .task-card p {
+    margin: 5px 0;
+  }
+  
+  .task-buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+  }
+  
+  button {
+    padding: 5px 10px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .delete-btn {
+    background-color: #ff4d4d;
+    color: white;
+  }
+  
+  .edit-btn {
+    background-color: #4682b4;
+    color: white;
+  }
+  
+  .details-btn {
+    background-color: #4caf50;
+    color: white;
+  }
+  
+  .todo {
+    background-color: #f7f7f7;
+  }
+  
+  .in-progress {
+    background-color: #f7f7f7;
+  }
+  
+  .done {
+    background-color: #f7f7f7;
+  }
+  
